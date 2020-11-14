@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {  
+  background-color: #15957A;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 190px;
+}
+
+header section {
+  background: #fff;
+  padding: 40px 40px 0 40px;
+  height: 450px;
+  border-radius: 10px;
+}
+header section .section_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+header section .section_title a img {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+}
+header section .section_title a img:hover {
+    box-shadow: 0px 0px 10px rgba(64, 73, 80, 0.5);
+
+}
+header section .section_text {
+  margin-bottom: 35px;
+  color: #A1A19B;
+}
+header section .section_price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+header section  {
+  background-image: url('./img/bicycle.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 160px;
+}
+header section .section_price p {
+ font-weight: bold;
+ font-size: 17px;
+}
+
+header section .section_price span {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+ 
